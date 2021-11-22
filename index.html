@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Resume web | JJOA</title>
+  </head>
+  <body
+    class="bg-dark custom-sa"
+    data-bs-spy="scroll"
+    data-bs-target="#navbar-example3"
+    data-bs-offset="10"
+    tabindex="0"
+  >
+    <!-- NavBar -->
+    <nav
+      class="
+        navbar navbar-expand-lg navbar navbar-dark
+        bg-dark
+        nav-line
+        fixed-top
+      "
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#home"
+          ><img
+            class="imagen-logo"
+            src="https://media.giphy.com/media/CcwLAV11cALh3OuEJ5/giphy.gif"
+            alt="Logo of the web page"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto lead">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutme">About me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Section with title + gif + technologies-->
+    <section class="bg-dark mt-5 pt-5" id="home">
+      <div class="container pt-5">
+        <div class="row pt-5 hide">
+          <div class="col-12 col-md-6 text-center size-font">
+            <h3><span>Dev</span> <span>Resume</span> <span>Web</span></h3>
+          </div>
+
+          <div class="col-12 col-md-6">
+            <img
+              class="img-fluid rounded"
+              src="https://media.giphy.com/media/zasVvgN2STDrO/giphy.gif?cid=ecf05e479a9f067ox1o8ywrsn94f7iowsodftglr5v23bdcm&rid=giphy.gif&ct=g"
+              alt="Image of a dev running"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio section -->
+    <section class="bg-dark mt-5 pt-5" id="portfolio">
+      <div class="container pt-5">
+        <h2 class="text-center h1">PORTFOLIO</h2>
+        <p class="text-center text-light lead">
+          These are just some of my projects, there are more on my github
+        </p>
+
+        <!-- Fullstack cards -->
+        <div class="row pt-5 text-light">
+          <p class="h2">MERN Stack, MongoDb, Express,React,Node</p>
+          <hr />
+        </div>
+        <!--Fullstack row-->
+        <div class="row text-center text-light">
+          <div class="col-12 col-md-4 mb-5">
+            <div class="card bg-dark border">
+              <img
+                src="./img/administrador-de-pacientes.png"
+                class="card-img-top"
+                alt="Image of the gif expert app"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Patients Management</h5>
+                <p class="card-text">
+                  It is an app where the user can manage the appointments for a
+                  vet, made with React,Node,Express and MongoDB.
+                </p>
+                <a
+                  href="https://management-system-mern-app.netlify.app/"
+                  class="btn btn-primary"
+                  target="_blank"
+                  >Visit it</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- React cards -->
+        <div class="row pt-5 text-light">
+          <p class="h2">React</p>
+          <hr />
+        </div>
+
+        <div class="row text-center text-light">
+          <div class="col-12 col-md-4 mb-5">
+            <div class="card bg-dark border">
+              <img
+                src="./img/gif-expert.png"
+                class="card-img-top"
+                alt="Image of the gif expert app"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Gif Expert App</h5>
+                <p class="card-text">
+                  It is an app where the user can search gifs, it is connected
+                  to an API
+                </p>
+                <a
+                  href="https://juanjefry23.github.io/react-gifexpertapp/"
+                  class="btn btn-primary"
+                  target="_blank"
+                  >Visit it</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 mb-5">
+            <div class="card bg-dark border">
+              <img
+                src="./img/todoApp.PNG"
+                class="card-img-top"
+                alt="Image of the To Do app"
+              />
+              <div class="card-body">
+                <h5 class="card-title">ToDo App</h5>
+                <p class="card-text">
+                  It is an app where the user can add their tasks to do
+                </p>
+                <a
+                  href="https://juanjefry23.github.io/react-ToDoApp/"
+                  class="btn btn-primary"
+                  target="_blank"
+                  >Visit it</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 mb-5">
+            <div class="card bg-dark border">
+              <img
+                src="./img/superhero.PNG"
+                class="card-img-top"
+                alt="Image of the heroes app"
+              />
+              <div class="card-body">
+                <h5 class="card-title">SuperHero Searcher</h5>
+                <p class="card-text">
+                  It is a SPA with a login where the user can search for a
+                  superhero
+                </p>
+                <a
+                  href="https://lucid-jennings-85e56a.netlify.app/login"
+                  class="btn btn-primary"
+                  target="_blank"
+                  >Visit it</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Javascript + Css + html -->
+        <div class="row pt-5 text-light">
+          <p class="h2">Javascript-Html-Css</p>
+          <hr />
+        </div>
+
+        <!-- Card JS + HTML + CSS -->
+        <div class="row text-center text-light">
+          <div class="col-12 col-md-4 mb-5">
+            <div class="card bg-dark border">
+              <img
+                src="./img/clima.png"
+                class="card-img-top"
+                alt="Image of the weather app"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Weather app</h5>
+                <p class="card-text">
+                  It is an app where the user can input their city and country
+                  and find out the weather
+                </p>
+                <a
+                  href="https://juanjefry23.github.io/Clima/"
+                  class="btn btn-primary"
+                  target="_blank"
+                  >Visit it</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 mb-5">
+            <div class="card bg-dark border">
+              <img
+                src="./img/landing.png"
+                class="card-img-top"
+                alt="Image of the landing page web"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Landing Page</h5>
+                <p class="card-text">
+                  It is a landing page with responsive and with a form which use
+                  PHP and JS.
+                </p>
+                <a
+                  href="https://juanjefry23.github.io/landingpage/index.html"
+                  class="btn btn-primary"
+                  target="_blank"
+                  >Visit it</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 mb-5">
+            <div class="card bg-dark border">
+              <img
+                src="./img/cripto.png"
+                class="card-img-top"
+                alt="Image of the cryptocurrecincies app"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Cryptocurrencies App</h5>
+                <p class="card-text">
+                  It is an app to quote the price of cryptocurrencies into local
+                  currencies
+                </p>
+                <a
+                  href="https://juanjefry23.github.io/Criptomonedas/"
+                  class="btn btn-primary"
+                  target="_blank"
+                  >Visit it</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Responsive design -->
+        <div class="row pt-5 text-light">
+          <p class="h2">Responsive Design</p>
+          <hr />
+        </div>
+
+        <!-- Cards Responsive design -->
+        <div class="row text-center text-light">
+          <div class="col-12 col-md-4 mb-5">
+            <div class="card bg-dark border">
+              <img
+                src="./img/web-dev.png"
+                class="card-img-top"
+                alt="Image of the dev web"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Design web</h5>
+                <p class="card-text">
+                  Responsive web of a web dev designer made with Css
+                </p>
+                <a
+                  href="https://juanjefry23.github.io/Clima/"
+                  class="btn btn-primary"
+                  target="_blank"
+                  >Visit it</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 mb-5">
+            <div class="card bg-dark border">
+              <img
+                src="./img/theonemillion.png"
+                class="card-img-top"
+                alt="Image of the 1 million web"
+              />
+              <div class="card-body">
+                <h5 class="card-title">The1MillionIdea web</h5>
+                <p class="card-text">
+                  Responsive web made with bootstrap and with some custom Css
+                </p>
+                <a
+                  href="https://juanjefry23.github.io/landingpage/index.html"
+                  class="btn btn-primary"
+                  target="_blank"
+                  >Visit it</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 mb-5">
+            <div class="card bg-dark border">
+              <img
+                src="./img/cursos.png"
+                class="card-img-top"
+                alt="Image of the courses web"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Courses Web</h5>
+                <p class="card-text">
+                  It is a responsive web design where the user can buy courses
+                  of different topics
+                </p>
+                <a
+                  href="https://nervous-kilby-c2414b.netlify.app/"
+                  class="btn btn-primary"
+                  target="_blank"
+                  >Visit it</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End container -->
+    </section>
+    <!-- Portfolio section -->
+
+    <!-- Section About me -->
+    <section class="bg-dark text-white mt-5 pt-5" id="aboutme">
+      <div class="container">
+        <h2 class="text-center pt-5">ABOUT ME</h2>
+        <span></span>
+        <div class="row justify-content-center">
+          <div class="col-3 col-sm-2">
+            <img
+              class="img-fluid rounded pt-3"
+              src="https://media.giphy.com/media/l2R098V90nJfuHKg0/giphy.gif?cid=ecf05e47h04t1i43sh4oqqljeevvwewjir02hp1k9h71fgm1&rid=giphy.gif&ct=g"
+              alt="Gif of the section about me"
+            />
+          </div>
+        </div>
+
+        <!-- Row Bio + Languages -->
+        <div class="row pt-4 mt-3 justify-content-around">
+          <div class="col-12 col-sm-4 pb-4 text-center">
+            <p class="h5 pb-3">Bio</p>
+            <p class="lead">
+              I am from Peru in south america, currently living in Buenos aires,
+              Argentina, always working and studying, my mind always ask
+              something new to learn, over I am studying in a college, prefer to
+              define myself as a self-taught person, who love books, courses,
+              technology, languages, to make sports and of course to enjoy each
+              minute of the life .
+            </p>
+          </div>
+
+          <div class="col-12 col-sm-4 text-center">
+            <p class="h5 pb-3">Interests</p>
+            <p class="lead">
+              Currently focused on technologies such as React, Javascript,
+              Python, Django, Css, Bootstrap, Html, for front and back end in
+              web development, wanna later in time to continue with Machine
+              learning, Ai, IoT, robots and of course to continue to improve my
+              languages like chinese and continue with russian once I am
+              proficient in chinese.
+            </p>
+          </div>
+
+          <div class="row pt-4 pb-3 mt-3 text-center">
+            <div class="col-12 col-sm-4">
+              <p class="h5 pb-3">Technologies</p>
+              <img class="img-fluid" src="./img/html.png" alt="Icon of html" />
+              <img class="img-fluid" src="./img/css.png" alt="Icon of Css" />
+              <img
+                class="img-fluid"
+                src="./img/bootstrap.png"
+                alt="Icon of bootstrap"
+              />
+              <img
+                class="img-fluid"
+                src="./img/js.png"
+                alt="Icon of Javascript"
+              />
+              <img
+                class="img-fluid"
+                src="./img/react.png"
+                alt="Icon of React"
+              />
+
+              <div class="col-12">
+                <img
+                  class="img-fluid"
+                  src="./img/python.png"
+                  alt="Icon of Python"
+                />
+                <img class="img-fluid" src="./img/sql.png" alt="Icon of Sql" />
+                <img
+                  class="img-fluid"
+                  src="./img/node1.png"
+                  alt="Icon of Node js"
+                />
+                <img
+                  class="img-fluid"
+                  src="./img/mysql.png"
+                  alt="Icon of Mysql"
+                />
+                <img class="img-fluid" src="./img/git.png" alt="Icon of Git" />
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-4 pt-1 pb-4">
+              <p class="h5 pb-3">Info</p>
+              <div>
+                <img src="./img/github.png" alt="Icon of Github" />
+                <span
+                  >Github:
+                  <a href="https://github.com/JuanJefry23" target="_blank"
+                    >Link</a
+                  ></span
+                >
+              </div>
+
+              <div class="pt-2 ps-2">
+                <img src="./img/linkedin.png" alt="Icon of Linkedin" />
+                <span
+                  >Linkedin:
+                  <a
+                    href="https://www.linkedin.com/in/jerfry-juan-ortega-aliaga-ba22201ba/"
+                    target="_blank"
+                    >Link</a
+                  ></span
+                >
+              </div>
+
+              <div class="ps-4 ms-2 pt-2">
+                <img src="./img/hackerrank.png" alt="Logo of Hacker rank" />
+                <span
+                  >HackerRank:
+                  <a
+                    href="https://www.hackerrank.com/og_jjoa?h_r=internal-search&hr_r=1"
+                    target="_blank"
+                    >Link</a
+                  ></span
+                >
+              </div>
+
+              <div class="ps-4 ms-3 pt-2">
+                <img src="./img/stackoverflow.png" alt="Logo of Hacker rank" />
+                <span
+                  >Stackoverflow:
+                  <a
+                    href="https://stackexchange.com/users/19676046/juan-j"
+                    target="_blank"
+                    >Link</a
+                  ></span
+                >
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-4 pt-2">
+              <p class="h5 pb-3">Languages</p>
+
+              <div class="ps-4">
+                <img src="./img/spanish.png" alt="Icon of spain flag" />
+                <span class="lead">Spanish / Español</span>
+              </div>
+
+              <div>
+                <img src="./img/english.png" alt="Icon of USA flag" />
+                <span class="lead">English / Ingles</span>
+              </div>
+
+              <div class="ps-2">
+                <img src="./img/chinese.png" alt="Icon of China flag" />
+                <span class="lead">Chinese / Chino</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section About me -->
+
+    <!-- Footer -->
+    <footer class="border-top">
+      <div class="container pt-3">
+        <div class="row text-center">
+          <div class="col-12 col-sm-6 align-self-center">
+            <p class="lead text-light h6 pb-2">
+              "A book can turn you into an astronaut, scientific
+              <br />
+              or take you to the most exciting journey"
+            </p>
+          </div>
+
+          <div class="col-12 col-sm-6">
+            <img
+              class="img-fluid rounded footer-img"
+              src="https://media.giphy.com/media/Wr8PrRVqnGOLE48FWk/giphy.gif?cid=ecf05e47yhvhvy6av8cr5b846df9aq23au7djfmx0cnsme79&rid=giphy.gif&ct=g"
+              alt="Image of accomplishing your goals"
+            />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <hr class="text-light" />
+            <p class="text-center text-light h5">JJOA - 2021</p>
+            <p class="text-center text-light lead">
+              Thanks for visit my resume web
+              <i
+                class="em em-face_with_cowboy_hat"
+                aria-role="presentation"
+                aria-label="FACE WITH COWBOY HAT"
+              ></i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

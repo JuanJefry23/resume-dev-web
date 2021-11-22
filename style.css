@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+
+section {
+  /* height: 100vh; */
+  background-color: #485460;
+}
+.imagen-logo {
+  width: 200px;
+  height: 50px;
+}
+
+.nav-line {
+  border-bottom: 1px solid rgb(102, 101, 101);
+}
+
+h2 {
+  color: #d2dae2;
+}
+
+/*Style for title*/
+
+body {
+  background: #111;
+}
+
+h3 {
+  /* margin: 20px; */
+  font-family: "Paytone One";
+  color: #202020;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+}
+
+h3 span {
+  display: block;
+  margin: 11px 0 17px 0;
+  font-size: 80px;
+  line-height: 80px;
+  color: #f1ebe5;
+  text-shadow: 0 5px 8.896px #c4b59d, 0 -2px 1px #fff;
+  letter-spacing: -4px;
+}
+
+/*Body - Scroll active - */
+
+/*Footer image*/
+.footer-img {
+  height: 200px;
+  width: 300px;
+}
+
+/*Media Queries*/
+@media (max-width: 500px) {
+  .size-font {
+    font-size: 1.5rem;
+  }
+}
