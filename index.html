@@ -18,7 +18,7 @@
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
     <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Resume web | JJOA</title>
   </head>
   <body
@@ -76,7 +76,7 @@
     <!-- Navbar -->
 
     <!-- Section with title + gif + technologies-->
-    <section class="bg-dark mt-5 pt-5" id="home">
+    <section class="bg-dark header" id="home">
       <div class="container pt-5">
         <div class="row pt-5 hide">
           <div class="col-12 col-md-6 text-center size-font">
@@ -94,11 +94,11 @@
       </div>
     </section>
 
-    <!-- Portfolio section -->
-    <section class="bg-dark mt-5 pt-5" id="portfolio">
+    <!-------------------------- Portfolio section ---------------->
+    <main class="bg-dark mt-3 pt-5" data-aos="fade-up" data-aos-delay="700" id="portfolio">
       <div class="container pt-5">
-        <h2 class="text-center h1">PORTFOLIO</h2>
-        <p class="text-center text-light lead">
+        <h2 class="text-center h1 animate__animated animate__fadeInRight">PORTFOLIO</h2>
+        <p class="text-center text-light lead mb-5">
           These are just some of my projects, there are more on my github
         </p>
 
@@ -109,13 +109,15 @@
         </div>
         <!--Fullstack row-->
         <div class="row text-center text-light">
+          <!--Card Patients Management-->
           <div class="col-12 col-md-4 mb-5">
             <div class="card bg-dark border">
-              <img
-                src="./img/administrador-de-pacientes.png"
-                class="card-img-top"
-                alt="Image of the gif expert app"
-              />
+              <video
+                class="video-card"
+                src="./videos/vet.mp4"
+                type="video/mp4"
+                loop
+              ></video>
               <div class="card-body">
                 <h5 class="card-title">Patients Management</h5>
                 <p class="card-text">
@@ -131,6 +133,29 @@
               </div>
             </div>
           </div>
+          <!--Card Gpt3 React-->
+          <div class="col-12 col-md-4 mb-5">
+            <div class="card bg-dark border">
+              <video
+                class="video-card"
+                src="./videos/gpt.mp4"
+                type="video/mp4"
+                loop
+              ></video>
+              <div class="card-body">
+                <h5 class="card-title">Patients Management</h5>
+                <p class="card-text">
+                  A web page made with React, it has authentication using Auth0, Css using the BEM methodology
+                </p>
+                <a
+                  href="https://gtp3.netlify.app/"
+                  class="btn btn-primary"
+                  target="_blank"
+                  >Visit it</a
+                >
+              </div>
+            </div>
+          </div>
         </div>
 
         <!-- React cards -->
@@ -138,15 +163,17 @@
           <p class="h2">React</p>
           <hr />
         </div>
-
+        
         <div class="row text-center text-light">
+          <!--Card Giff Expert App-->
           <div class="col-12 col-md-4 mb-5">
             <div class="card bg-dark border">
-              <img
-                src="./img/gif-expert.png"
-                class="card-img-top"
-                alt="Image of the gif expert app"
-              />
+              <video
+                class="video-card"
+                src="./videos/giff.mp4"
+                type="video/mp4"
+                loop
+              ></video>
               <div class="card-body">
                 <h5 class="card-title">Gif Expert App</h5>
                 <p class="card-text">
@@ -163,13 +190,15 @@
             </div>
           </div>
 
+          <!--Card TODO App-->
           <div class="col-12 col-md-4 mb-5">
             <div class="card bg-dark border">
-              <img
-                src="./img/todoApp.PNG"
-                class="card-img-top"
-                alt="Image of the To Do app"
-              />
+              <video
+                class="video-card"
+                src="./videos/todo.mp4"
+                type="video/mp4"
+                loop
+              ></video>
               <div class="card-body">
                 <h5 class="card-title">ToDo App</h5>
                 <p class="card-text">
@@ -185,13 +214,15 @@
             </div>
           </div>
 
+          <!--Card Super Hero Searcher-->
           <div class="col-12 col-md-4 mb-5">
             <div class="card bg-dark border">
-              <img
-                src="./img/superhero.PNG"
-                class="card-img-top"
-                alt="Image of the heroes app"
-              />
+              <video
+              class="video-card"
+              src="./videos/superhero.mp4"
+              type="video/mp4"
+              loop
+            ></video>
               <div class="card-body">
                 <h5 class="card-title">SuperHero Searcher</h5>
                 <p class="card-text">
@@ -217,13 +248,16 @@
 
         <!-- Card JS + HTML + CSS -->
         <div class="row text-center text-light">
+
+          <!--Card Weather App-->
           <div class="col-12 col-md-4 mb-5">
             <div class="card bg-dark border">
-              <img
-                src="./img/clima.png"
-                class="card-img-top"
-                alt="Image of the weather app"
-              />
+              <video
+              class="video-card"
+              src="./videos/clima.mp4"
+              type="video/mp4"
+              loop
+            ></video>
               <div class="card-body">
                 <h5 class="card-title">Weather app</h5>
                 <p class="card-text">
@@ -240,13 +274,15 @@
             </div>
           </div>
 
+          <!--Card Landing Page-->
           <div class="col-12 col-md-4 mb-5">
             <div class="card bg-dark border">
-              <img
-                src="./img/landing.png"
-                class="card-img-top"
-                alt="Image of the landing page web"
-              />
+              <video
+              class="video-card"
+              src="./videos/landing.mp4"
+              type="video/mp4"
+              loop
+            ></video>
               <div class="card-body">
                 <h5 class="card-title">Landing Page</h5>
                 <p class="card-text">
@@ -263,13 +299,15 @@
             </div>
           </div>
 
+          <!--Card Cripto App-->
           <div class="col-12 col-md-4 mb-5">
             <div class="card bg-dark border">
-              <img
-                src="./img/cripto.png"
-                class="card-img-top"
-                alt="Image of the cryptocurrecincies app"
-              />
+              <video
+              class="video-card"
+              src="./videos/cripto.mp4"
+              type="video/mp4"
+              loop
+            ></video>
               <div class="card-body">
                 <h5 class="card-title">Cryptocurrencies App</h5>
                 <p class="card-text">
@@ -295,20 +333,23 @@
 
         <!-- Cards Responsive design -->
         <div class="row text-center text-light">
+
+          <!--Card Design Web-->
           <div class="col-12 col-md-4 mb-5">
             <div class="card bg-dark border">
-              <img
-                src="./img/web-dev.png"
-                class="card-img-top"
-                alt="Image of the dev web"
-              />
+              <video
+              class="video-card"
+              src="./videos/designweb.mp4"
+              type="video/mp4"
+              loop
+            ></video>
               <div class="card-body">
                 <h5 class="card-title">Design web</h5>
                 <p class="card-text">
                   Responsive web of a web dev designer made with Css
                 </p>
                 <a
-                  href="https://juanjefry23.github.io/Clima/"
+                  href="https://web-design-res.netlify.app/"
                   class="btn btn-primary"
                   target="_blank"
                   >Visit it</a
@@ -317,13 +358,15 @@
             </div>
           </div>
 
+          <!--Card One Million Web-->
           <div class="col-12 col-md-4 mb-5">
             <div class="card bg-dark border">
-              <img
-                src="./img/theonemillion.png"
-                class="card-img-top"
-                alt="Image of the 1 million web"
-              />
+              <video
+              class="video-card"
+              src="./videos/one.mp4"
+              type="video/mp4"
+              loop
+            ></video>
               <div class="card-body">
                 <h5 class="card-title">The1MillionIdea web</h5>
                 <p class="card-text">
@@ -339,13 +382,15 @@
             </div>
           </div>
 
+          <!--Card Cursos Web-->
           <div class="col-12 col-md-4 mb-5">
             <div class="card bg-dark border">
-              <img
-                src="./img/cursos.png"
-                class="card-img-top"
-                alt="Image of the courses web"
-              />
+              <video
+              class="video-card"
+              src="./videos/cursos.mp4"
+              type="video/mp4"
+              loop
+            ></video>
               <div class="card-body">
                 <h5 class="card-title">Courses Web</h5>
                 <p class="card-text">
@@ -364,13 +409,13 @@
         </div>
       </div>
       <!-- End container -->
-    </section>
+    </main>
     <!-- Portfolio section -->
 
-    <!-- Section About me -->
-    <section class="bg-dark text-white mt-5 pt-5" id="aboutme">
+    <!------------------------------ Section About me ----------------->
+    <section class="bg-dark text-white mt-5 pt-5 about" data-aos="fade-up" data-aos-delay="800" id="aboutme">
       <div class="container">
-        <h2 class="text-center pt-5">ABOUT ME</h2>
+        <h2 class="text-center pt-5 about-title">ABOUT ME</h2>
         <span></span>
         <div class="row justify-content-center">
           <div class="col-3 col-sm-2">
@@ -385,8 +430,8 @@
         <!-- Row Bio + Languages -->
         <div class="row pt-4 mt-3 justify-content-around">
           <div class="col-12 col-sm-4 pb-4 text-center">
-            <p class="h5 pb-3">Bio</p>
-            <p class="lead">
+            <p class="h5 pb-3 bio-sub">Bio</p>
+            <p class="lead about-p">
               I am from Peru in south america, currently living in Buenos aires,
               Argentina, always working and studying, my mind always ask
               something new to learn, over I am studying in a college, prefer to
@@ -397,8 +442,8 @@
           </div>
 
           <div class="col-12 col-sm-4 text-center">
-            <p class="h5 pb-3">Interests</p>
-            <p class="lead">
+            <p class="h5 pb-3 bio-sub">Interests</p>
+            <p class="lead about-p">
               Currently focused on technologies such as React, Javascript,
               Python, Django, Css, Bootstrap, Html, for front and back end in
               web development, wanna later in time to continue with Machine
@@ -410,7 +455,7 @@
 
           <div class="row pt-4 pb-3 mt-3 text-center">
             <div class="col-12 col-sm-4">
-              <p class="h5 pb-3">Technologies</p>
+              <p class="h5 pb-3 bio-sub">Technologies</p>
               <img class="img-fluid" src="./img/html.png" alt="Icon of html" />
               <img class="img-fluid" src="./img/css.png" alt="Icon of Css" />
               <img
@@ -451,7 +496,7 @@
             </div>
 
             <div class="col-12 col-sm-4 pt-1 pb-4">
-              <p class="h5 pb-3">Info</p>
+              <p class="h5 pb-3 bio-sub">Info</p>
               <div>
                 <img src="./img/github.png" alt="Icon of Github" />
                 <span
@@ -500,7 +545,7 @@
             </div>
 
             <div class="col-12 col-sm-4 pt-2">
-              <p class="h5 pb-3">Languages</p>
+              <p class="h5 pb-3 bio-sub">Languages</p>
 
               <div class="ps-4">
                 <img src="./img/spanish.png" alt="Icon of spain flag" />
@@ -566,5 +611,10 @@
       integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="app.js"></script>
   </body>
 </html>

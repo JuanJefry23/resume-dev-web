@@ -1,9 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Khula:700);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
-section {
+section,main {
   /* height: 100vh; */
   background-color: #485460;
 }
+
+.header {
+  margin-top: 7.5rem;
+  margin-bottom: 8rem;
+  
+}
+
 .imagen-logo {
   width: 200px;
   height: 50px;
@@ -15,6 +23,27 @@ section {
 
 h2 {
   color: #d2dae2;
+}
+
+.card-body h5 {
+  text-transform: uppercase;
+}
+
+/*Biography Section*/
+.about-title {
+  font-size: 2.7rem;
+}
+.about {
+  letter-spacing: 1.5px;
+ 
+}
+
+.about-p {
+  font-size: 1.2rem;
+}
+
+.bio-sub {
+  font-size: 1.8rem;
 }
 
 /*Style for title*/
@@ -43,6 +72,16 @@ h3 span {
 
 /*Body - Scroll active - */
 
+
+/* Style for the main part*/
+main {
+  letter-spacing: 1.3px;
+}
+
+main p {
+  font-family: 'Roboto', sans-serif;
+}
+
 /*Footer image*/
 .footer-img {
   height: 200px;
@@ -53,5 +92,10 @@ h3 span {
 @media (max-width: 500px) {
   .size-font {
     font-size: 1.5rem;
+  }
+  .header {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    
   }
 }
