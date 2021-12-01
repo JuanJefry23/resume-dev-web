@@ -19,6 +19,7 @@
     <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/mouse-min.css" />
     <title>Resume web | JJOA</title>
   </head>
   <body
@@ -80,7 +81,9 @@
       <div class="container pt-5">
         <div class="row pt-5 hide">
           <div class="col-12 col-md-6 text-center size-font">
-            <h3><span>Dev</span> <span>Resume</span> <span>Web</span></h3>
+            
+            <h3><span>Frontend Dev</span></h3>
+            <h3 class="dev-subtitle"><span>Dev Resume web</span></h3>
           </div>
 
           <div class="col-12 col-md-6">
@@ -95,20 +98,21 @@
     </section>
 
     <!-------------------------- Portfolio section ---------------->
-    <main class="bg-dark mt-3 pt-5" data-aos="fade-up" data-aos-delay="700" id="portfolio">
-      <div class="container pt-5">
+    <main class="bg-dark mt-3 pt-5" id="portfolio">
+      <div class="container pt-5" data-aos="fade-up" data-aos-delay="300">
         <h2 class="text-center h1 animate__animated animate__fadeInRight">PORTFOLIO</h2>
-        <p class="text-center text-light lead mb-5">
-          These are just some of my projects, there are more on my github
+        <p class="text-center text-light lead">
+          These are just some of my projects, there are more on my <a href="https://github.com/JuanJefry23" target="_blank">github</a>
         </p>
+        <p class="text-center text-light lead mb-5">Hover the mouse cursor over the images of the projects and watch the app summary</p>
 
         <!-- Fullstack cards -->
-        <div class="row pt-5 text-light">
+        <div class="row pt-5 text-light" data-aos="fade-up" data-aos-delay="300">
           <p class="h2">MERN Stack, MongoDb, Express,React,Node</p>
           <hr />
         </div>
         <!--Fullstack row-->
-        <div class="row text-center text-light">
+        <div class="row text-center text-light" data-aos="fade-up" data-aos-delay="300">
           <!--Card Patients Management-->
           <div class="col-12 col-md-4 mb-5">
             <div class="card bg-dark border">
@@ -143,7 +147,7 @@
                 loop
               ></video>
               <div class="card-body">
-                <h5 class="card-title">Patients Management</h5>
+                <h5 class="card-title">GPT3 Technology Web</h5>
                 <p class="card-text">
                   A web page made with React, it has authentication using Auth0, Css using the BEM methodology
                 </p>
@@ -156,15 +160,43 @@
               </div>
             </div>
           </div>
+
+
+          <!--Music Learn App Card-->
+          <div class="col-12 col-md-4 mb-5">
+                <div class="card bg-dark border">
+                  <video
+                    class="video-card"
+                    src="./videos/music.mp4"
+                    type="video/mp4"
+                    loop
+                  ></video>
+                  <div class="card-body">
+                    <h5 class="card-title">Music Learn App<br>(Beta version)</h5>
+                    <p class="card-text">
+                      A web app to learn english watching a music video with their lyrics.
+                    </p>
+                    <a
+                      href="https://gtp3.netlify.app/"
+                      class="btn btn-primary"
+                      target="_blank"
+                      >Visit it</a
+                    >
+                  </div>
+                </div>
+          </div>
+
         </div>
+
+        
 
         <!-- React cards -->
         <div class="row pt-5 text-light">
-          <p class="h2">React</p>
+          <p class="h2" data-aos="fade-up" data-aos-delay="300">React</p>
           <hr />
         </div>
         
-        <div class="row text-center text-light">
+        <div class="row text-center text-light" data-aos="fade-up" data-aos-delay="300">
           <!--Card Giff Expert App-->
           <div class="col-12 col-md-4 mb-5">
             <div class="card bg-dark border">
@@ -240,14 +272,14 @@
           </div>
         </div>
 
-        <!-- Javascript + Css + html -->
-        <div class="row pt-5 text-light">
+        <!--------------- Javascript + Css + html ------------------->
+        <div class="row pt-5 text-light" data-aos="fade-up" data-aos-delay="300">
           <p class="h2">Javascript-Html-Css</p>
           <hr />
         </div>
 
         <!-- Card JS + HTML + CSS -->
-        <div class="row text-center text-light">
+        <div class="row text-center text-light" data-aos="fade-up" data-aos-delay="300">
 
           <!--Card Weather App-->
           <div class="col-12 col-md-4 mb-5">
@@ -325,14 +357,14 @@
           </div>
         </div>
 
-        <!-- Responsive design -->
-        <div class="row pt-5 text-light">
+        <!------------------- Responsive design ------------------->
+        <div class="row pt-5 text-light" data-aos="fade-up" data-aos-delay="300">
           <p class="h2">Responsive Design</p>
           <hr />
         </div>
 
         <!-- Cards Responsive design -->
-        <div class="row text-center text-light">
+        <div class="row text-center text-light" data-aos="fade-up" data-aos-delay="300">
 
           <!--Card Design Web-->
           <div class="col-12 col-md-4 mb-5">
@@ -615,6 +647,15 @@
     <script>
       AOS.init();
     </script>
+    <!--Mouse animation-->
+    <script src="dist/js/mouse-min.js"></script>
+    <!------------------->
     <script src="app.js"></script>
   </body>
 </html>
+
+
+
+
+
+
