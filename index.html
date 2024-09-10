@@ -96,16 +96,96 @@
       </div>
     </section>
 
-    <!-------------------------- Portfolio section ---------------->
+    <!--************************************************* Portfolio section *****************************************************-->
     <main class="bg-dark mt-3 pt-5" id="portfolio">
       <div class="container pt-5" data-aos="fade-up" data-aos-delay="300">
         <h2 class="text-center h1 animate__animated animate__fadeInRight">PORTFOLIO</h2>
-        <p class="text-center text-light lead no-margin-bottom">
-          These are just some of my projects, there are more on my <a href="https://github.com/JuanJefry23" target="_blank">github</a>
+        <p class="text-center text-light lead no-margin-bottom portfolio-paragraph">
+          These are just some of my projects, there are more on my <a href="https://github.com/JuanJefry23" target="_blank" class="link-github">github</a>
         </p>
-        <p class="text-center text-light lead mb-5">Hover the mouse cursor over the images of the projects and watch the app summary</p>
+        <p class="text-center text-light lead mb-5 portfolio-paragraph">Hover the mouse cursor over the images of the projects and watch the app summary</p>
 
-        <!-- Fullstack cards -->
+        <!--************************ Webflow Projects *************************-->
+        <div class="row pt-5 text-light" data-aos="fade-up" data-aos-delay="300">
+          <p class="h2">Webflow</p>
+          <hr />
+        </div>
+        <!--Fullstack row-->
+        <div class="row text-center text-light" data-aos="fade-up" data-aos-delay="300">
+          <!--Card Patients Management-->
+          <div class="col-12 col-md-4 mb-5">
+            <div class="card bg-dark border">
+              <video
+                class="video-card"
+                src="./videos/vet.mp4"
+                type="video/mp4"
+                loop
+              ></video>
+              <div class="card-body">
+                <h5 class="card-title">Patients Management</h5>
+                <p class="card-text">
+                  It is an app where the user can manage the appointments for a
+                  vet, made with React,Node,Express and MongoDB.
+                </p>
+                <a
+                  href="https://management-system-mern-app.netlify.app/"
+                  class="btn btn-primary"
+                  target="_blank"
+                  >Visit it</a
+                >
+              </div>
+            </div>
+          </div>
+          <!--Card Gpt3 React-->
+          <div class="col-12 col-md-4 mb-5">
+            <div class="card bg-dark border">
+              <video
+                class="video-card"
+                src="./videos/gpt.mp4"
+                type="video/mp4"
+                loop
+              ></video>
+              <div class="card-body">
+                <h5 class="card-title">GPT3 Technology Web</h5>
+                <p class="card-text">
+                  A web page made with React, it has authentication using Auth0, Css using the BEM methodology
+                </p>
+                <a
+                  href="https://gtp3.netlify.app/"
+                  class="btn btn-primary"
+                  target="_blank"
+                  >Visit it</a
+                >
+              </div>
+            </div>
+          </div>
+          <!--Music Learn App Card-->
+          <div class="col-12 col-md-4 mb-5">
+              <div class="card bg-dark border">
+                <video
+                  class="video-card"
+                  src="./videos/music.mp4"
+                  type="video/mp4"
+                  loop
+                ></video>
+                <div class="card-body">
+                  <h5 class="card-title">Music Learn App<br>(Beta version)</h5>
+                  <p class="card-text">
+                    A web app to learn english watching a music video with their lyrics.
+                  </p>
+                  <a
+                    href="https://music-learn-app.netlify.app/"
+                    class="btn btn-primary"
+                    target="_blank"
+                    >Visit it</a
+                  >
+                </div>
+              </div>
+          </div>
+        </div>
+        <!--******************FIN WEBFLOW******************* -->
+
+        <!--*************** Fullstack cards *******************-->
         <div class="row pt-5 text-light" data-aos="fade-up" data-aos-delay="300">
           <p class="h2">MERN Stack, MongoDb, Express,React,Node</p>
           <hr />
@@ -159,42 +239,38 @@
               </div>
             </div>
           </div>
-
-
           <!--Music Learn App Card-->
           <div class="col-12 col-md-4 mb-5">
-                <div class="card bg-dark border">
-                  <video
-                    class="video-card"
-                    src="./videos/music.mp4"
-                    type="video/mp4"
-                    loop
-                  ></video>
-                  <div class="card-body">
-                    <h5 class="card-title">Music Learn App<br>(Beta version)</h5>
-                    <p class="card-text">
-                      A web app to learn english watching a music video with their lyrics.
-                    </p>
-                    <a
-                      href="https://music-learn-app.netlify.app/"
-                      class="btn btn-primary"
-                      target="_blank"
-                      >Visit it</a
-                    >
-                  </div>
+              <div class="card bg-dark border">
+                <video
+                  class="video-card"
+                  src="./videos/music.mp4"
+                  type="video/mp4"
+                  loop
+                ></video>
+                <div class="card-body">
+                  <h5 class="card-title">Music Learn App<br>(Beta version)</h5>
+                  <p class="card-text">
+                    A web app to learn english watching a music video with their lyrics.
+                  </p>
+                  <a
+                    href="https://music-learn-app.netlify.app/"
+                    class="btn btn-primary"
+                    target="_blank"
+                    >Visit it</a
+                  >
                 </div>
+              </div>
           </div>
-
         </div>
 
         
 
-        <!-- React cards -->
+        <!-- ************ React cards ************** -->
         <div class="row pt-5 text-light">
           <p class="h2" data-aos="fade-up" data-aos-delay="300">React</p>
           <hr />
         </div>
-        
         <div class="row text-center text-light" data-aos="fade-up" data-aos-delay="300">
           <!--Card Giff Expert App-->
           <div class="col-12 col-md-4 mb-5">
@@ -220,7 +296,6 @@
               </div>
             </div>
           </div>
-
           <!--Card TODO App-->
           <div class="col-12 col-md-4 mb-5">
             <div class="card bg-dark border">
@@ -244,7 +319,6 @@
               </div>
             </div>
           </div>
-
           <!--Card Super Hero Searcher-->
           <div class="col-12 col-md-4 mb-5">
             <div class="card bg-dark border">
@@ -271,15 +345,13 @@
           </div>
         </div>
 
-        <!--------------- Javascript + Css + html ------------------->
+        <!--*********************** Javascript + Css + html **************************-->
         <div class="row pt-5 text-light" data-aos="fade-up" data-aos-delay="300">
           <p class="h2">Javascript-Html-Css</p>
           <hr />
         </div>
-
         <!-- Card JS + HTML + CSS -->
         <div class="row text-center text-light" data-aos="fade-up" data-aos-delay="300">
-
           <!--Card Weather App-->
           <div class="col-12 col-md-4 mb-5">
             <div class="card bg-dark border min-height-adjust">
@@ -304,7 +376,6 @@
               </div>
             </div>
           </div>
-
           <!--Card Landing Page-->
           <div class="col-12 col-md-4 mb-5">
             <div class="card bg-dark border min-height-adjust">
@@ -329,7 +400,6 @@
               </div>
             </div>
           </div>
-
           <!--Card Cripto App-->
           <div class="col-12 col-md-4 mb-5">
             <div class="card bg-dark border min-height-adjust">
@@ -361,10 +431,8 @@
           <p class="h2">Responsive Design</p>
           <hr />
         </div>
-
         <!-- Cards Responsive design -->
         <div class="row text-center text-light" data-aos="fade-up" data-aos-delay="300">
-
           <!--Card Design Web-->
           <div class="col-12 col-md-4 mb-5">
             <div class="card bg-dark border min-height-adjust">
@@ -388,7 +456,6 @@
               </div>
             </div>
           </div>
-
           <!--Card One Million Web-->
           <div class="col-12 col-md-4 mb-5">
             <div class="card bg-dark border min-height-adjust">
@@ -412,7 +479,6 @@
               </div>
             </div>
           </div>
-
           <!--Card Cursos Web-->
           <div class="col-12 col-md-4 mb-5">
             <div class="card bg-dark border min-height-adjust">
@@ -588,7 +654,7 @@
 
               <div>
                 <img src="./img/english.png" alt="Icon of USA flag" />
-                <span class="lead">English / Ingles</span>
+                <span class="lead">English / Inglés</span>
               </div>
 
               <div class="ps-2">

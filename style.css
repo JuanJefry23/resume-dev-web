@@ -24,6 +24,16 @@ h2 {
   color: #d2dae2;
 }
 
+.card-body{
+  display: flex;
+  flex-direction: column;
+  vertical-align: 
+}
+
+.btn{
+  margin-top: auto;
+}
+
 .card-body h5 {
   text-transform: uppercase;
 }
@@ -40,6 +50,7 @@ h2 {
 .about-p {
   /* font-family: Arial, Helvetica, sans-serif; */
   font-size: .92rem;
+  opacity: 80%;
 }
 
 .bio-sub {
@@ -90,15 +101,31 @@ main p {
   margin-bottom: 3px;
 }
 
-.min-height-adjust{
+.portfolio-paragraph{
+  opacity: 80%;
+}
+
+.link-github{
+  opacity: 100;
+  /* color:rgb(102, 101, 101) */
+}
+
+.card{
   min-height: 400px;
 }
 
-.adjust-to-button{
-  /* display: inline-block; */
-  margin-top: 23px;
+h2{
+  font-weight: bolder;
 }
 
+.card-text{
+  opacity: 80%;
+  font-size: .95rem;
+}
+
+.btn{
+  width: 100%;
+}
 
 /*Footer image*/
 .footer-img {
