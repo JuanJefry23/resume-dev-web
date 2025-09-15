@@ -10,4 +10,5 @@ Latest update: Exchanging img for SVG elements, fixing some heights in the cards
 
 
 
+
 Github pages: https://juanjefry23.github.io/resume-dev-web/
